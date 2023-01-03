@@ -1,0 +1,1189 @@
+{% extends 'accounts/base.html' %} 
+{% block body %}
+
+
+    <section class="section-page-header wf-section">
+      <div class="landing-page-container">
+        <div class="section-page-header-content section-header-content-home">
+          <div
+            class="section-page-header-left-content section-header-left-content-home"
+          >
+            <h1 class="heading-9">Talk to someone you can trust, anytime.</h1>
+            <p class="paragraph-6">
+              Petzo puts a 24/7 team of veterinary doctors &amp; nurses in your
+              back pocket. Whether you need a gut check, can’t get an
+              appointment, or just want expert advice — we’ve got your back.
+              <strong>Try 1 month of Petzo free</strong>.
+            </p>
+            <div class="div-block-73 home-page-cta-wrapper">
+              <a
+                id="unauthed-header-button"
+                data-track-click="true"
+                data-track-click-name="CTA Selected"
+                data-track-click-property-location="hero"
+                data-track-click-property-screen="homepage"
+                data-track-click-property-cta_text="Try The App For Free"
+                href="/download-app/"
+                class="button button-size-large button-variant-iris button-full-width home-page-header-button unauthed-state w-button"
+                style="display: block"
+                >Try The App For Free</a
+              ><a
+                id="authed-header-button"
+                data-track-click="true"
+                data-track-click-name="CTA Selected"
+                data-track-click-property-location="hero"
+                data-track-click-property-screen="homepage"
+                data-track-click-property-cta_text="Petzo Home"
+                href="/app/dashboard/"
+                class="button button-size-large button-variant-iris button-full-width home-page-header-button authed-state w-button"
+                style="display: none"
+                >Petzo Home</a
+              >
+            </div>
+            <div class="div-block-36">
+              <a
+                data-track-click-property-screen="homepage"
+                aria-label="Download ios app"
+                data-track-click="true"
+                data-track-click-name="App Download Selected"
+                data-track-click-property-app="ios"
+                data-track-click-property-location="hero"
+                href="https://link.pawp.com/9SSD?af_web_dp=https%3A%2F%2Fapps.apple.com%2Fus%2Fapp%2Fpawp-24-7-vet-pet-care%2Fid1594794194&amp;initial_interaction=homepage"
+                class="link-block-10 w-inline-block"
+                ><img
+                  src="https://assets.website-files.com/6331f18a8af6845b0f127c61/6397c137a252b28d20b65556_apple_badge%20(1).png"
+                  loading="lazy"
+                  height="44"
+                  width="147"
+                  srcset="
+                    https://assets.website-files.com/6331f18a8af6845b0f127c61/6397c137a252b28d20b65556_apple_badge%20(1)-p-500.png   500w,
+                    https://assets.website-files.com/6331f18a8af6845b0f127c61/6397c137a252b28d20b65556_apple_badge%20(1)-p-800.png   800w,
+                    https://assets.website-files.com/6331f18a8af6845b0f127c61/6397c137a252b28d20b65556_apple_badge%20(1)-p-1080.png 1080w,
+                    https://assets.website-files.com/6331f18a8af6845b0f127c61/6397c137a252b28d20b65556_apple_badge%20(1)-p-1600.png 1600w,
+                    https://assets.website-files.com/6331f18a8af6845b0f127c61/6397c137a252b28d20b65556_apple_badge%20(1)-p-2000.png 2000w,
+                    https://assets.website-files.com/6331f18a8af6845b0f127c61/6397c137a252b28d20b65556_apple_badge%20(1)-p-2600.png 2600w,
+                    https://assets.website-files.com/6331f18a8af6845b0f127c61/6397c137a252b28d20b65556_apple_badge%20(1)-p-3200.png 3200w
+                  "
+                  sizes="147px"
+                  alt="Download on the App Store"
+                  class="image-59" /></a
+              ><a
+                data-track-click-property-screen="homepage"
+                aria-label="Download android app"
+                data-track-click="true"
+                data-track-click-name="App Download Selected"
+                data-track-click-property-app="android"
+                data-track-click-property-location="hero"
+                href="https://link.pawp.com/9SSD?af_web_dp=https%3A%2F%2Fplay.google.com%2Fstore%2Fapps%2Fdetails%3Fid%3Dcom.pawp.android&amp;hl=en_US&amp;gl=US&amp;initial_interaction=homepage"
+                class="link-block-21 w-inline-block"
+                ><img
+                  src="https://assets.website-files.com/6331f18a8af6845b0f127c61/6397c137a252b20d03b65555_google_badge%20(2).png"
+                  loading="lazy"
+                  height="44"
+                  width="147"
+                  srcset="
+                    https://assets.website-files.com/6331f18a8af6845b0f127c61/6397c137a252b20d03b65555_google_badge%20(2)-p-500.png   500w,
+                    https://assets.website-files.com/6331f18a8af6845b0f127c61/6397c137a252b20d03b65555_google_badge%20(2)-p-800.png   800w,
+                    https://assets.website-files.com/6331f18a8af6845b0f127c61/6397c137a252b20d03b65555_google_badge%20(2)-p-1080.png 1080w,
+                    https://assets.website-files.com/6331f18a8af6845b0f127c61/6397c137a252b20d03b65555_google_badge%20(2)-p-1600.png 1600w,
+                    https://assets.website-files.com/6331f18a8af6845b0f127c61/6397c137a252b20d03b65555_google_badge%20(2)-p-2000.png 2000w,
+                    https://assets.website-files.com/6331f18a8af6845b0f127c61/6397c137a252b20d03b65555_google_badge%20(2)-p-2600.png 2600w,
+                    https://assets.website-files.com/6331f18a8af6845b0f127c61/6397c137a252b20d03b65555_google_badge%20(2)-p-3200.png 3200w
+                  "
+                  sizes="147px"
+                  alt="Get it on Google Play"
+                  class="image-60"
+              /></a>
+            </div>
+          </div>
+          <div
+            class="section-page-header-right-content section-page-header-right-content-home"
+          >
+            <div class="section-page-header-right-content-image-wrapper">
+              <img
+                src="https://assets.website-files.com/6331f18a8af6845b0f127c61/63920eb66f2ed21015648ac2_Group%2021425.webp"
+                loading="lazy"
+                width="669"
+                height="634"
+                srcset="
+                  https://assets.website-files.com/6331f18a8af6845b0f127c61/63920eb66f2ed21015648ac2_Group%2021425-p-500.webp   500w,
+                  https://assets.website-files.com/6331f18a8af6845b0f127c61/63920eb66f2ed21015648ac2_Group%2021425-p-800.webp   800w,
+                  https://assets.website-files.com/6331f18a8af6845b0f127c61/63920eb66f2ed21015648ac2_Group%2021425-p-1080.webp 1080w,
+                  https://assets.website-files.com/6331f18a8af6845b0f127c61/63920eb66f2ed21015648ac2_Group%2021425-p-1600.webp 1600w,
+                  https://assets.website-files.com/6331f18a8af6845b0f127c61/63920eb66f2ed21015648ac2_Group%2021425.webp        1946w
+                "
+                sizes="(max-width: 479px) 100vw, (max-width: 767px) 94vw, (max-width: 991px) 48vw, (max-width: 1439px) 49vw, 669px"
+                alt="Vet in blue scrubs sitting down and holding a chow chow dog"
+                class="section-page-header-right-content-image section-header-right-image-home"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="section-news-logo-banner wf-section">
+      <div class="section-news-logo-banner-content scroll">
+        <img
+          src="https://assets.website-files.com/6331f18a8af6845b0f127c61/6397fa8a0754714af7e838ea_logo-variety.png"
+          loading="lazy"
+          height="105"
+          id="w-node-_46347cd4-cf35-a69a-bd60-f3a63e97820d-1cee06fc"
+          alt="Variety logo"
+          srcset="
+            https://assets.website-files.com/6331f18a8af6845b0f127c61/6397fa8a0754714af7e838ea_logo-variety-p-500.png 500w,
+            https://assets.website-files.com/6331f18a8af6845b0f127c61/6397fa8a0754714af7e838ea_logo-variety-p-800.png 800w,
+            https://assets.website-files.com/6331f18a8af6845b0f127c61/6397fa8a0754714af7e838ea_logo-variety.png       996w
+          "
+          sizes="(max-width: 479px) 100vw, (max-width: 767px) 32vw, (max-width: 991px) 19vw, 124.5px"
+          class="section-news-logo-banner-logo"
+        /><img
+          src="https://assets.website-files.com/6331f18a8af6845b0f127c61/6397fa8ad9d4a1fb1af0965c_logo-forbes.png"
+          loading="lazy"
+          height="105"
+          id="w-node-_6ace3ac0-3e01-e8b7-b7c9-f1b6d8a39e32-1cee06fc"
+          alt="Forbes logo"
+          srcset="
+            https://assets.website-files.com/6331f18a8af6845b0f127c61/6397fa8ad9d4a1fb1af0965c_logo-forbes-p-500.png 500w,
+            https://assets.website-files.com/6331f18a8af6845b0f127c61/6397fa8ad9d4a1fb1af0965c_logo-forbes-p-800.png 800w,
+            https://assets.website-files.com/6331f18a8af6845b0f127c61/6397fa8ad9d4a1fb1af0965c_logo-forbes.png       811w
+          "
+          sizes="(max-width: 479px) 100vw, (max-width: 767px) 27vw, (max-width: 991px) 16vw, 101.375px"
+          class="section-news-logo-banner-logo forbes-logo"
+        /><img
+          src="https://assets.website-files.com/6331f18a8af6845b0f127c61/6397fa8a92a9bd2e80ebb4f0_logo-people.png"
+          loading="lazy"
+          height="105"
+          id="w-node-_18ccbc38-a000-4a53-af8c-d41a8f1c402e-1cee06fc"
+          alt="People logo"
+          srcset="
+            https://assets.website-files.com/6331f18a8af6845b0f127c61/6397fa8a92a9bd2e80ebb4f0_logo-people-p-500.png 500w,
+            https://assets.website-files.com/6331f18a8af6845b0f127c61/6397fa8a92a9bd2e80ebb4f0_logo-people.png       702w
+          "
+          sizes="(max-width: 479px) 100vw, (max-width: 767px) 24vw, (max-width: 991px) 14vw, 87.75px"
+          class="section-news-logo-banner-logo people-logo"
+        /><img
+          src="https://assets.website-files.com/6331f18a8af6845b0f127c61/6397fa8ae7aba38732e7f7bc_logo-gma.png"
+          loading="lazy"
+          height="105"
+          id="w-node-_507b2125-92c5-f95b-256c-5c916c8c2b02-1cee06fc"
+          alt="Wired Logo"
+          srcset="
+            https://assets.website-files.com/6331f18a8af6845b0f127c61/6397fa8ae7aba38732e7f7bc_logo-gma-p-500.png 500w,
+            https://assets.website-files.com/6331f18a8af6845b0f127c61/6397fa8ae7aba38732e7f7bc_logo-gma-p-800.png 800w,
+            https://assets.website-files.com/6331f18a8af6845b0f127c61/6397fa8ae7aba38732e7f7bc_logo-gma.png       851w
+          "
+          sizes="(max-width: 479px) 100vw, (max-width: 767px) 28vw, (max-width: 991px) 17vw, 106.375px"
+          class="section-news-logo-banner-logo gma-logo"
+        /><img
+          src="https://assets.website-files.com/6331f18a8af6845b0f127c61/6397fa8a3c019a1d62ed4607_logo-wired.png"
+          loading="lazy"
+          height="105"
+          sizes="(max-width: 479px) 0px, (max-width: 767px) 100vw, 116.25px"
+          alt="FOX logo"
+          srcset="
+            https://assets.website-files.com/6331f18a8af6845b0f127c61/6397fa8a3c019a1d62ed4607_logo-wired-p-500.png 500w,
+            https://assets.website-files.com/6331f18a8af6845b0f127c61/6397fa8a3c019a1d62ed4607_logo-wired-p-800.png 800w,
+            https://assets.website-files.com/6331f18a8af6845b0f127c61/6397fa8a3c019a1d62ed4607_logo-wired.png       930w
+          "
+          class="section-news-logo-banner-logo wired-logo"
+        /><img
+          src="https://assets.website-files.com/6331f18a8af6845b0f127c61/6397fa8af858cf1ff62bbc37_logo-cbs.png"
+          loading="lazy"
+          height="105"
+          id="w-node-_6e8220f5-049d-ecc3-ef93-c517e17c3b54-1cee06fc"
+          alt="CBS logo"
+          srcset="
+            https://assets.website-files.com/6331f18a8af6845b0f127c61/6397fa8af858cf1ff62bbc37_logo-cbs-p-500.png 500w,
+            https://assets.website-files.com/6331f18a8af6845b0f127c61/6397fa8af858cf1ff62bbc37_logo-cbs.png       601w
+          "
+          sizes="(max-width: 479px) 100vw, (max-width: 767px) 21vw, (max-width: 991px) 12vw, 75.125px"
+          class="section-news-logo-banner-logo cbs-logo"
+        /><img
+          src="https://assets.website-files.com/6331f18a8af6845b0f127c61/6397fa8992a9bd722bebb4ef_logo-fox.png"
+          loading="lazy"
+          height="105"
+          id="w-node-_43bb3516-0fd2-1adf-aea7-26a90d3e5401-1cee06fc"
+          alt="FOX logo"
+          srcset="
+            https://assets.website-files.com/6331f18a8af6845b0f127c61/6397fa8992a9bd722bebb4ef_logo-fox-p-500.png 500w,
+            https://assets.website-files.com/6331f18a8af6845b0f127c61/6397fa8992a9bd722bebb4ef_logo-fox.png       521w
+          "
+          sizes="(max-width: 479px) 100vw, (max-width: 767px) 19vw, (max-width: 991px) 10vw, 65.125px"
+          class="section-news-logo-banner-logo fox-logo"
+        />
+      </div>
+    </section>
+    <section class="section-virtual-care wf-section">
+      <div class="landing-page-container">
+        <div class="section-virtual-care-content">
+          <div class="div-block-42">
+            <h2 class="heading-7">
+              Virtual care that puts your pet at the center.
+            </h2>
+            <p class="paragraph-7">
+              Petzo focuses on providing pets with continuous care for longer,
+              healthier lives. With an annual membership, you’ll always have
+              someone fighting in your pet’s corner.
+            </p>
+          </div>
+          <div class="div-block-17">
+            <div class="section-virtual-care-block">
+              <div class="div-block-16">
+                <div class="div-block-22">
+                  <img
+                    src="https://assets.website-files.com/6331f18a8af6845b0f127c61/639354894e1e2f4962516269_On-Demand%20Vists.webp"
+                    loading="lazy"
+                    width="140"
+                    height="140"
+                    alt="stethoscope"
+                    class="image-49"
+                  />
+                  <div class="div-block-33">
+                    <p class="paragraph-8 section-eyebrow">INSTANT&nbsp;CARE</p>
+                    <p class="paragraph-9">
+                      On-demand expert support available 24/7
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="div-block-30">
+                <img
+                  src="https://assets.website-files.com/6331f18a8af6845b0f127c61/6397c0a7a252b212a1b652ef_Frame%20626612%20(1).webp"
+                  loading="lazy"
+                  alt="A smart phone with a Petzo text chat on screen"
+                  height="468"
+                  width="328"
+                  srcset="
+                    https://assets.website-files.com/6331f18a8af6845b0f127c61/6397c0a7a252b212a1b652ef_Frame%20626612%20(1)-p-500.webp   500w,
+                    https://assets.website-files.com/6331f18a8af6845b0f127c61/6397c0a7a252b212a1b652ef_Frame%20626612%20(1)-p-800.webp   800w,
+                    https://assets.website-files.com/6331f18a8af6845b0f127c61/6397c0a7a252b212a1b652ef_Frame%20626612%20(1)-p-1080.webp 1080w,
+                    https://assets.website-files.com/6331f18a8af6845b0f127c61/6397c0a7a252b212a1b652ef_Frame%20626612%20(1).webp        1151w
+                  "
+                  sizes="(max-width: 479px) 100vw, (max-width: 767px) 68vw, (max-width: 991px) 28vw, (max-width: 1439px) 27vw, 328px"
+                  class="image-65"
+                />
+              </div>
+            </div>
+            <div
+              class="section-virtual-care-block section-virtual-care-center-block"
+            >
+              <div class="div-block-16">
+                <div class="div-block-22">
+                  <img
+                    src="https://assets.website-files.com/6331f18a8af6845b0f127c61/63935489a1189ad427f9df8f_Unlimited%20Follow-ups.webp"
+                    loading="lazy"
+                    width="140"
+                    height="140"
+                    alt="folder"
+                    class="image-49"
+                  />
+                  <div class="div-block-34">
+                    <p class="paragraph-8 section-eyebrow">BETTER OUTCOMES</p>
+                    <p class="paragraph-9">
+                      Unlimited follow-ups for continuous care
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="div-block-31">
+                <img
+                  src="https://assets.website-files.com/6331f18a8af6845b0f127c61/6397c0a8cc7fc0103f8a2ff5_Frame%20626555%20(1).webp"
+                  loading="lazy"
+                  alt="A smart phone with a Petzo video chat on screen"
+                  height="534"
+                  width="332"
+                  srcset="
+                    https://assets.website-files.com/6331f18a8af6845b0f127c61/6397c0a8cc7fc0103f8a2ff5_Frame%20626555%20(1)-p-500.webp   500w,
+                    https://assets.website-files.com/6331f18a8af6845b0f127c61/6397c0a8cc7fc0103f8a2ff5_Frame%20626555%20(1)-p-800.webp   800w,
+                    https://assets.website-files.com/6331f18a8af6845b0f127c61/6397c0a8cc7fc0103f8a2ff5_Frame%20626555%20(1)-p-1080.webp 1080w,
+                    https://assets.website-files.com/6331f18a8af6845b0f127c61/6397c0a8cc7fc0103f8a2ff5_Frame%20626555%20(1).webp        1141w
+                  "
+                  sizes="(max-width: 479px) 100vw, (max-width: 767px) 69vw, (max-width: 1439px) 28vw, 332px"
+                  class="image-66"
+                />
+              </div>
+            </div>
+            <div
+              class="section-virtual-care-block section-virtual-care-bottom-block"
+            >
+              <div class="div-block-16">
+                <div class="div-block-22">
+                  <img
+                    src="https://assets.website-files.com/6331f18a8af6845b0f127c61/6393548993d402c127c4fb18_Pet%20Health%20History.webp"
+                    loading="lazy"
+                    width="140"
+                    height="140"
+                    srcset="
+                      https://assets.website-files.com/6331f18a8af6845b0f127c61/6393548993d402c127c4fb18_Pet%20Health%20History-p-500.webp 500w,
+                      https://assets.website-files.com/6331f18a8af6845b0f127c61/6393548993d402c127c4fb18_Pet%20Health%20History.webp       721w
+                    "
+                    sizes="(max-width: 479px) 100vw, (max-width: 767px) 13vw, 72px"
+                    alt="clipboard"
+                    class="image-49"
+                  />
+                  <div class="div-block-35">
+                    <p class="paragraph-8 section-eyebrow">
+                      DESIGNED FOR YOUR PET
+                    </p>
+                    <p class="paragraph-9">
+                      Actionable care plans &amp; personalized advice
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="div-block-32">
+                <img
+                  src="https://assets.website-files.com/6331f18a8af6845b0f127c61/6397c0a8c9cf22b78fed0a94_Frame%20626556%20(1).webp"
+                  loading="lazy"
+                  alt="Smart phone with the Petzo dashboard on the screen"
+                  height="468"
+                  width="328"
+                  srcset="
+                    https://assets.website-files.com/6331f18a8af6845b0f127c61/6397c0a8c9cf22b78fed0a94_Frame%20626556%20(1)-p-500.webp   500w,
+                    https://assets.website-files.com/6331f18a8af6845b0f127c61/6397c0a8c9cf22b78fed0a94_Frame%20626556%20(1)-p-800.webp   800w,
+                    https://assets.website-files.com/6331f18a8af6845b0f127c61/6397c0a8c9cf22b78fed0a94_Frame%20626556%20(1)-p-1080.webp 1080w,
+                    https://assets.website-files.com/6331f18a8af6845b0f127c61/6397c0a8c9cf22b78fed0a94_Frame%20626556%20(1).webp        1162w
+                  "
+                  sizes="(max-width: 479px) 100vw, (max-width: 767px) 68vw, (max-width: 991px) 28vw, (max-width: 1439px) 27vw, 328px"
+                  class="image-67"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section
+      data-w-id="9d17bed6-2080-83f5-1918-b076e6469f32"
+      class="section-virtual-care-banner"
+    >
+      <a
+        data-track-click-property-cta_text="Learn More About How It Works"
+        data-track-click="true"
+        data-track-click-name="CTA Selected"
+        data-track-click-property-location="how-it-works-banner"
+        data-track-click-property-screen="homepage"
+        href="/howItWork/"
+        class="link-2 text-weight-medium"
+        >Learn More About How It Works</a
+      >
+    </section>
+    <section class="section-reviews section-reviews-home wf-section">
+      <div class="landing-page-container custom-landing-page-container">
+
+        <div class="pets-heath-wrapper">
+          <div class="container">
+            <h3 class="title-head">Get expert advice on</h3>
+           <a href="https://supertails.com/products/instant-consult">
+            <img class="img-responsive desktop-only hs-lazyload hs-id-17cae901 lazyloaded" data-src="https://cdn.shopify.com/s/files/1/0565/8021/0861/files/get-expert-advice-desktop-op.png?v=1640779739" src="https://cdn.shopify.com/s/files/1/0565/8021/0861/files/get-expert-advice-desktop-op.png?v=1640779739" loading="lazy"></a>
+            <a href="https://supertails.com/products/instant-consult"></a>
+            
+          </div>
+        </div>
+
+        <!-- <div class="section-reviews-content">
+          <div class="section-reviews-top-text-content">
+            <p class="section-eyebrow-text section-eyebrow">
+              WHAT&nbsp;MEMBERS&nbsp;SAY
+            </p>
+            <h2 class="section-reviews-heading-text">
+              Pets (and their parents) get better outcomes with Petzo.
+            </h2>
+          </div>
+          <div class="section-reviews-slider-container">
+            <div
+              data-delay="4000"
+              data-animation="slide"
+              class="slider section-reviews-slider w-slider"
+              data-autoplay="true"
+              data-easing="ease"
+              data-hide-arrows="false"
+              data-disable-swipe="false"
+              data-autoplay-limit="0"
+              data-nav-spacing="3"
+              data-duration="1000"
+              data-infinite="true"
+              role="region"
+              aria-label="carousel"
+            >
+              <div class="mask w-slider-mask" id="w-slider-mask-0">
+                <div
+                  class="slide home-slide-two w-slide"
+                  aria-label="1 of 3"
+                  role="group"
+                  style="
+                    transform: translateX(-847px);
+                    opacity: 1;
+                    transition: transform 1000ms ease 0s;
+                  "
+                  aria-hidden="true"
+                >
+                  <div class="section-reviews-slide-content" aria-hidden="true">
+                    <div
+                      class="section-reviews-slide-content-left"
+                      aria-hidden="true"
+                    >
+                      <div class="div-block-40" aria-hidden="true">
+                        <div class="w-embed" aria-hidden="true">
+                          <svg
+                            width="30"
+                            height="29"
+                            viewBox="0 0 30 29"
+                            fill="none"
+                            xmlns="http://www.w3.org/2000/svg"
+                            aria-hidden="true"
+                          >
+                            <path
+                              d="M13.3438 1.1652C13.8494 -0.0358606 15.5717 -0.035859 16.0773 1.1652L19.0618 8.25405C19.2751 8.76038 19.7571 9.10634 20.3104 9.15016L28.0569 9.76371C29.3694 9.86766 29.9016 11.4858 28.9016 12.3321L22.9996 17.3267C22.5781 17.6835 22.3939 18.2433 22.5227 18.7766L24.3259 26.2447C24.6313 27.51 23.2381 28.5101 22.1144 27.8321L15.4822 23.83C15.0084 23.5442 14.4127 23.5442 13.9389 23.83L7.30671 27.8321C6.18301 28.5101 4.78969 27.51 5.09519 26.2447L6.8984 18.7766C7.0272 18.2433 6.84309 17.6835 6.42153 17.3267L0.519374 12.3321C-0.48062 11.4858 0.0515867 9.86766 1.3641 9.76371L9.11076 9.15016C9.66409 9.10634 10.1461 8.76038 10.3593 8.25405L13.3438 1.1652Z"
+                              fill="#4E519D"
+                              aria-hidden="true"
+                            ></path>
+                          </svg>
+                        </div>
+                        <div class="w-embed" aria-hidden="true">
+                          <svg
+                            width="30"
+                            height="29"
+                            viewBox="0 0 30 29"
+                            fill="none"
+                            xmlns="http://www.w3.org/2000/svg"
+                            aria-hidden="true"
+                          >
+                            <path
+                              d="M13.3438 1.1652C13.8494 -0.0358606 15.5717 -0.035859 16.0773 1.1652L19.0618 8.25405C19.2751 8.76038 19.7571 9.10634 20.3104 9.15016L28.0569 9.76371C29.3694 9.86766 29.9016 11.4858 28.9016 12.3321L22.9996 17.3267C22.5781 17.6835 22.3939 18.2433 22.5227 18.7766L24.3259 26.2447C24.6313 27.51 23.2381 28.5101 22.1144 27.8321L15.4822 23.83C15.0084 23.5442 14.4127 23.5442 13.9389 23.83L7.30671 27.8321C6.18301 28.5101 4.78969 27.51 5.09519 26.2447L6.8984 18.7766C7.0272 18.2433 6.84309 17.6835 6.42153 17.3267L0.519374 12.3321C-0.48062 11.4858 0.0515867 9.86766 1.3641 9.76371L9.11076 9.15016C9.66409 9.10634 10.1461 8.76038 10.3593 8.25405L13.3438 1.1652Z"
+                              fill="#4E519D"
+                              aria-hidden="true"
+                            ></path>
+                          </svg>
+                        </div>
+                        <div class="w-embed" aria-hidden="true">
+                          <svg
+                            width="30"
+                            height="29"
+                            viewBox="0 0 30 29"
+                            fill="none"
+                            xmlns="http://www.w3.org/2000/svg"
+                            aria-hidden="true"
+                          >
+                            <path
+                              d="M13.3438 1.1652C13.8494 -0.0358606 15.5717 -0.035859 16.0773 1.1652L19.0618 8.25405C19.2751 8.76038 19.7571 9.10634 20.3104 9.15016L28.0569 9.76371C29.3694 9.86766 29.9016 11.4858 28.9016 12.3321L22.9996 17.3267C22.5781 17.6835 22.3939 18.2433 22.5227 18.7766L24.3259 26.2447C24.6313 27.51 23.2381 28.5101 22.1144 27.8321L15.4822 23.83C15.0084 23.5442 14.4127 23.5442 13.9389 23.83L7.30671 27.8321C6.18301 28.5101 4.78969 27.51 5.09519 26.2447L6.8984 18.7766C7.0272 18.2433 6.84309 17.6835 6.42153 17.3267L0.519374 12.3321C-0.48062 11.4858 0.0515867 9.86766 1.3641 9.76371L9.11076 9.15016C9.66409 9.10634 10.1461 8.76038 10.3593 8.25405L13.3438 1.1652Z"
+                              fill="#4E519D"
+                              aria-hidden="true"
+                            ></path>
+                          </svg>
+                        </div>
+                        <div class="w-embed" aria-hidden="true">
+                          <svg
+                            width="30"
+                            height="29"
+                            viewBox="0 0 30 29"
+                            fill="none"
+                            xmlns="http://www.w3.org/2000/svg"
+                            aria-hidden="true"
+                          >
+                            <path
+                              d="M13.3438 1.1652C13.8494 -0.0358606 15.5717 -0.035859 16.0773 1.1652L19.0618 8.25405C19.2751 8.76038 19.7571 9.10634 20.3104 9.15016L28.0569 9.76371C29.3694 9.86766 29.9016 11.4858 28.9016 12.3321L22.9996 17.3267C22.5781 17.6835 22.3939 18.2433 22.5227 18.7766L24.3259 26.2447C24.6313 27.51 23.2381 28.5101 22.1144 27.8321L15.4822 23.83C15.0084 23.5442 14.4127 23.5442 13.9389 23.83L7.30671 27.8321C6.18301 28.5101 4.78969 27.51 5.09519 26.2447L6.8984 18.7766C7.0272 18.2433 6.84309 17.6835 6.42153 17.3267L0.519374 12.3321C-0.48062 11.4858 0.0515867 9.86766 1.3641 9.76371L9.11076 9.15016C9.66409 9.10634 10.1461 8.76038 10.3593 8.25405L13.3438 1.1652Z"
+                              fill="#4E519D"
+                              aria-hidden="true"
+                            ></path>
+                          </svg>
+                        </div>
+                        <div class="w-embed" aria-hidden="true">
+                          <svg
+                            width="30"
+                            height="29"
+                            viewBox="0 0 30 29"
+                            fill="none"
+                            xmlns="http://www.w3.org/2000/svg"
+                            aria-hidden="true"
+                          >
+                            <path
+                              d="M13.3438 1.1652C13.8494 -0.0358606 15.5717 -0.035859 16.0773 1.1652L19.0618 8.25405C19.2751 8.76038 19.7571 9.10634 20.3104 9.15016L28.0569 9.76371C29.3694 9.86766 29.9016 11.4858 28.9016 12.3321L22.9996 17.3267C22.5781 17.6835 22.3939 18.2433 22.5227 18.7766L24.3259 26.2447C24.6313 27.51 23.2381 28.5101 22.1144 27.8321L15.4822 23.83C15.0084 23.5442 14.4127 23.5442 13.9389 23.83L7.30671 27.8321C6.18301 28.5101 4.78969 27.51 5.09519 26.2447L6.8984 18.7766C7.0272 18.2433 6.84309 17.6835 6.42153 17.3267L0.519374 12.3321C-0.48062 11.4858 0.0515867 9.86766 1.3641 9.76371L9.11076 9.15016C9.66409 9.10634 10.1461 8.76038 10.3593 8.25405L13.3438 1.1652Z"
+                              fill="#4E519D"
+                              aria-hidden="true"
+                            ></path>
+                          </svg>
+                        </div>
+                      </div>
+                      <h2 class="text-block-42" aria-hidden="true">
+                        Saved my best friend's life. Thank you so much Petzo!
+                      </h2>
+                      <p class="text-block-43" aria-hidden="true">
+                        "My 11 year old Papillon was rowdy and hyper until she
+                        wasn't. I noticed her tongue was blue and she was
+                        crying. After consulting the Petzo DVM, I followed the
+                        advice and ran to the ER immediately. She could have
+                        died had I waited. I cannot describe how grateful I am
+                        for their patience and life-saving advice. Worth every
+                        penny. Customer forever."
+                      </p>
+                      <p class="text-block-44" aria-hidden="true">Kim G.</p>
+                      <p class="text-block-45" aria-hidden="true">Toledo, OH</p>
+                    </div>
+                    <div
+                      class="section-reviews-slide-content-right"
+                      aria-hidden="true"
+                    >
+                      <img
+                        width="567"
+                        height="378"
+                        src="https://assets.website-files.com/6331f18a8af6845b0f127c61/6397cafd627c01521636fa37_iStock-1364726710.webp"
+                        sizes="(max-width: 479px) 100vw, (max-width: 767px) 94vw, (max-width: 1439px) 42vw, 600px"
+                        srcset="
+                          https://assets.website-files.com/6331f18a8af6845b0f127c61/6397cafd627c01521636fa37_iStock-1364726710-p-500.webp 500w,
+                          https://assets.website-files.com/6331f18a8af6845b0f127c61/6397cafd627c01521636fa37_iStock-1364726710-p-800.webp 800w,
+                          https://assets.website-files.com/6331f18a8af6845b0f127c61/6397cafd627c01521636fa37_iStock-1364726710.webp       830w
+                        "
+                        alt="small dog looking back at you"
+                        class="image-64"
+                        aria-hidden="true"
+                      />
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="slide home-slide-three w-slide"
+                  aria-label="2 of 3"
+                  role="group"
+                  style="
+                    transform: translateX(-847px);
+                    opacity: 1;
+                    transition: transform 1000ms ease 0s;
+                  "
+                >
+                  <div class="section-reviews-slide-content">
+                    <div class="section-reviews-slide-content-left">
+                      <div class="div-block-40">
+                        <div class="w-embed">
+                          <svg
+                            width="30"
+                            height="29"
+                            viewBox="0 0 30 29"
+                            fill="none"
+                            xmlns="http://www.w3.org/2000/svg"
+                          >
+                            <path
+                              d="M13.3438 1.1652C13.8494 -0.0358606 15.5717 -0.035859 16.0773 1.1652L19.0618 8.25405C19.2751 8.76038 19.7571 9.10634 20.3104 9.15016L28.0569 9.76371C29.3694 9.86766 29.9016 11.4858 28.9016 12.3321L22.9996 17.3267C22.5781 17.6835 22.3939 18.2433 22.5227 18.7766L24.3259 26.2447C24.6313 27.51 23.2381 28.5101 22.1144 27.8321L15.4822 23.83C15.0084 23.5442 14.4127 23.5442 13.9389 23.83L7.30671 27.8321C6.18301 28.5101 4.78969 27.51 5.09519 26.2447L6.8984 18.7766C7.0272 18.2433 6.84309 17.6835 6.42153 17.3267L0.519374 12.3321C-0.48062 11.4858 0.0515867 9.86766 1.3641 9.76371L9.11076 9.15016C9.66409 9.10634 10.1461 8.76038 10.3593 8.25405L13.3438 1.1652Z"
+                              fill="#4E519D"
+                            ></path>
+                          </svg>
+                        </div>
+                        <div class="w-embed">
+                          <svg
+                            width="30"
+                            height="29"
+                            viewBox="0 0 30 29"
+                            fill="none"
+                            xmlns="http://www.w3.org/2000/svg"
+                          >
+                            <path
+                              d="M13.3438 1.1652C13.8494 -0.0358606 15.5717 -0.035859 16.0773 1.1652L19.0618 8.25405C19.2751 8.76038 19.7571 9.10634 20.3104 9.15016L28.0569 9.76371C29.3694 9.86766 29.9016 11.4858 28.9016 12.3321L22.9996 17.3267C22.5781 17.6835 22.3939 18.2433 22.5227 18.7766L24.3259 26.2447C24.6313 27.51 23.2381 28.5101 22.1144 27.8321L15.4822 23.83C15.0084 23.5442 14.4127 23.5442 13.9389 23.83L7.30671 27.8321C6.18301 28.5101 4.78969 27.51 5.09519 26.2447L6.8984 18.7766C7.0272 18.2433 6.84309 17.6835 6.42153 17.3267L0.519374 12.3321C-0.48062 11.4858 0.0515867 9.86766 1.3641 9.76371L9.11076 9.15016C9.66409 9.10634 10.1461 8.76038 10.3593 8.25405L13.3438 1.1652Z"
+                              fill="#4E519D"
+                            ></path>
+                          </svg>
+                        </div>
+                        <div class="w-embed">
+                          <svg
+                            width="30"
+                            height="29"
+                            viewBox="0 0 30 29"
+                            fill="none"
+                            xmlns="http://www.w3.org/2000/svg"
+                          >
+                            <path
+                              d="M13.3438 1.1652C13.8494 -0.0358606 15.5717 -0.035859 16.0773 1.1652L19.0618 8.25405C19.2751 8.76038 19.7571 9.10634 20.3104 9.15016L28.0569 9.76371C29.3694 9.86766 29.9016 11.4858 28.9016 12.3321L22.9996 17.3267C22.5781 17.6835 22.3939 18.2433 22.5227 18.7766L24.3259 26.2447C24.6313 27.51 23.2381 28.5101 22.1144 27.8321L15.4822 23.83C15.0084 23.5442 14.4127 23.5442 13.9389 23.83L7.30671 27.8321C6.18301 28.5101 4.78969 27.51 5.09519 26.2447L6.8984 18.7766C7.0272 18.2433 6.84309 17.6835 6.42153 17.3267L0.519374 12.3321C-0.48062 11.4858 0.0515867 9.86766 1.3641 9.76371L9.11076 9.15016C9.66409 9.10634 10.1461 8.76038 10.3593 8.25405L13.3438 1.1652Z"
+                              fill="#4E519D"
+                            ></path>
+                          </svg>
+                        </div>
+                        <div class="w-embed">
+                          <svg
+                            width="30"
+                            height="29"
+                            viewBox="0 0 30 29"
+                            fill="none"
+                            xmlns="http://www.w3.org/2000/svg"
+                          >
+                            <path
+                              d="M13.3438 1.1652C13.8494 -0.0358606 15.5717 -0.035859 16.0773 1.1652L19.0618 8.25405C19.2751 8.76038 19.7571 9.10634 20.3104 9.15016L28.0569 9.76371C29.3694 9.86766 29.9016 11.4858 28.9016 12.3321L22.9996 17.3267C22.5781 17.6835 22.3939 18.2433 22.5227 18.7766L24.3259 26.2447C24.6313 27.51 23.2381 28.5101 22.1144 27.8321L15.4822 23.83C15.0084 23.5442 14.4127 23.5442 13.9389 23.83L7.30671 27.8321C6.18301 28.5101 4.78969 27.51 5.09519 26.2447L6.8984 18.7766C7.0272 18.2433 6.84309 17.6835 6.42153 17.3267L0.519374 12.3321C-0.48062 11.4858 0.0515867 9.86766 1.3641 9.76371L9.11076 9.15016C9.66409 9.10634 10.1461 8.76038 10.3593 8.25405L13.3438 1.1652Z"
+                              fill="#4E519D"
+                            ></path>
+                          </svg>
+                        </div>
+                        <div class="w-embed">
+                          <svg
+                            width="30"
+                            height="29"
+                            viewBox="0 0 30 29"
+                            fill="none"
+                            xmlns="http://www.w3.org/2000/svg"
+                          >
+                            <path
+                              d="M13.3438 1.1652C13.8494 -0.0358606 15.5717 -0.035859 16.0773 1.1652L19.0618 8.25405C19.2751 8.76038 19.7571 9.10634 20.3104 9.15016L28.0569 9.76371C29.3694 9.86766 29.9016 11.4858 28.9016 12.3321L22.9996 17.3267C22.5781 17.6835 22.3939 18.2433 22.5227 18.7766L24.3259 26.2447C24.6313 27.51 23.2381 28.5101 22.1144 27.8321L15.4822 23.83C15.0084 23.5442 14.4127 23.5442 13.9389 23.83L7.30671 27.8321C6.18301 28.5101 4.78969 27.51 5.09519 26.2447L6.8984 18.7766C7.0272 18.2433 6.84309 17.6835 6.42153 17.3267L0.519374 12.3321C-0.48062 11.4858 0.0515867 9.86766 1.3641 9.76371L9.11076 9.15016C9.66409 9.10634 10.1461 8.76038 10.3593 8.25405L13.3438 1.1652Z"
+                              fill="#4E519D"
+                            ></path>
+                          </svg>
+                        </div>
+                      </div>
+                      <div class="text-block-42">
+                        I was skeptical but they saved me so many trips to the
+                        vet!
+                      </div>
+                      <div class="text-block-43">
+                        "Honestly, I was skeptical at first but my goodness has
+                        this company come in clutch on late nights when I am
+                        panicking. So many evenings I have talked to a vet that
+                        has calmed me down and avoided an unnecessary trip the
+                        emergency vet. These guys are amazing and being able to
+                        have a safety net available if needed is truly a
+                        blessing. Truly helped me out a ton."
+                      </div>
+                      <div class="text-block-44">Shannon W.</div>
+                      <div class="text-block-45">Toledo, OH</div>
+                    </div>
+                    <div class="section-reviews-slide-content-right">
+                      <img
+                        src="https://assets.website-files.com/6331f18a8af6845b0f127c61/6397cafd56384a7fabc01486_iStock-1323161175.webp"
+                        loading="lazy"
+                        width="567"
+                        height="378"
+                        srcset="
+                          https://assets.website-files.com/6331f18a8af6845b0f127c61/6397cafd56384a7fabc01486_iStock-1323161175-p-500.webp 500w,
+                          https://assets.website-files.com/6331f18a8af6845b0f127c61/6397cafd56384a7fabc01486_iStock-1323161175-p-800.webp 800w,
+                          https://assets.website-files.com/6331f18a8af6845b0f127c61/6397cafd56384a7fabc01486_iStock-1323161175.webp       831w
+                        "
+                        sizes="(max-width: 479px) 100vw, (max-width: 767px) 94vw, (max-width: 991px) 42vw, (max-width: 1439px) 41vw, 567px"
+                        alt="dog and cat sniffing each other's noses"
+                        class="image-57"
+                      />
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="slide home-slide-one w-slide"
+                  aria-label="3 of 3"
+                  role="group"
+                  style="
+                    transform: translateX(-847px);
+                    opacity: 1;
+                    transition: transform 1000ms ease 0s;
+                  "
+                  aria-hidden="true"
+                >
+                  <div class="section-reviews-slide-content" aria-hidden="true">
+                    <div
+                      class="section-reviews-slide-content-left"
+                      aria-hidden="true"
+                    >
+                      <div class="div-block-40" aria-hidden="true">
+                        <div class="w-embed" aria-hidden="true">
+                          <svg
+                            width="30"
+                            height="29"
+                            viewBox="0 0 30 29"
+                            fill="none"
+                            xmlns="http://www.w3.org/2000/svg"
+                            aria-hidden="true"
+                          >
+                            <path
+                              d="M13.3438 1.1652C13.8494 -0.0358606 15.5717 -0.035859 16.0773 1.1652L19.0618 8.25405C19.2751 8.76038 19.7571 9.10634 20.3104 9.15016L28.0569 9.76371C29.3694 9.86766 29.9016 11.4858 28.9016 12.3321L22.9996 17.3267C22.5781 17.6835 22.3939 18.2433 22.5227 18.7766L24.3259 26.2447C24.6313 27.51 23.2381 28.5101 22.1144 27.8321L15.4822 23.83C15.0084 23.5442 14.4127 23.5442 13.9389 23.83L7.30671 27.8321C6.18301 28.5101 4.78969 27.51 5.09519 26.2447L6.8984 18.7766C7.0272 18.2433 6.84309 17.6835 6.42153 17.3267L0.519374 12.3321C-0.48062 11.4858 0.0515867 9.86766 1.3641 9.76371L9.11076 9.15016C9.66409 9.10634 10.1461 8.76038 10.3593 8.25405L13.3438 1.1652Z"
+                              fill="#4E519D"
+                              aria-hidden="true"
+                            ></path>
+                          </svg>
+                        </div>
+                        <div class="w-embed" aria-hidden="true">
+                          <svg
+                            width="30"
+                            height="29"
+                            viewBox="0 0 30 29"
+                            fill="none"
+                            xmlns="http://www.w3.org/2000/svg"
+                            aria-hidden="true"
+                          >
+                            <path
+                              d="M13.3438 1.1652C13.8494 -0.0358606 15.5717 -0.035859 16.0773 1.1652L19.0618 8.25405C19.2751 8.76038 19.7571 9.10634 20.3104 9.15016L28.0569 9.76371C29.3694 9.86766 29.9016 11.4858 28.9016 12.3321L22.9996 17.3267C22.5781 17.6835 22.3939 18.2433 22.5227 18.7766L24.3259 26.2447C24.6313 27.51 23.2381 28.5101 22.1144 27.8321L15.4822 23.83C15.0084 23.5442 14.4127 23.5442 13.9389 23.83L7.30671 27.8321C6.18301 28.5101 4.78969 27.51 5.09519 26.2447L6.8984 18.7766C7.0272 18.2433 6.84309 17.6835 6.42153 17.3267L0.519374 12.3321C-0.48062 11.4858 0.0515867 9.86766 1.3641 9.76371L9.11076 9.15016C9.66409 9.10634 10.1461 8.76038 10.3593 8.25405L13.3438 1.1652Z"
+                              fill="#4E519D"
+                              aria-hidden="true"
+                            ></path>
+                          </svg>
+                        </div>
+                        <div class="w-embed" aria-hidden="true">
+                          <svg
+                            width="30"
+                            height="29"
+                            viewBox="0 0 30 29"
+                            fill="none"
+                            xmlns="http://www.w3.org/2000/svg"
+                            aria-hidden="true"
+                          >
+                            <path
+                              d="M13.3438 1.1652C13.8494 -0.0358606 15.5717 -0.035859 16.0773 1.1652L19.0618 8.25405C19.2751 8.76038 19.7571 9.10634 20.3104 9.15016L28.0569 9.76371C29.3694 9.86766 29.9016 11.4858 28.9016 12.3321L22.9996 17.3267C22.5781 17.6835 22.3939 18.2433 22.5227 18.7766L24.3259 26.2447C24.6313 27.51 23.2381 28.5101 22.1144 27.8321L15.4822 23.83C15.0084 23.5442 14.4127 23.5442 13.9389 23.83L7.30671 27.8321C6.18301 28.5101 4.78969 27.51 5.09519 26.2447L6.8984 18.7766C7.0272 18.2433 6.84309 17.6835 6.42153 17.3267L0.519374 12.3321C-0.48062 11.4858 0.0515867 9.86766 1.3641 9.76371L9.11076 9.15016C9.66409 9.10634 10.1461 8.76038 10.3593 8.25405L13.3438 1.1652Z"
+                              fill="#4E519D"
+                              aria-hidden="true"
+                            ></path>
+                          </svg>
+                        </div>
+                        <div class="w-embed" aria-hidden="true">
+                          <svg
+                            width="30"
+                            height="29"
+                            viewBox="0 0 30 29"
+                            fill="none"
+                            xmlns="http://www.w3.org/2000/svg"
+                            aria-hidden="true"
+                          >
+                            <path
+                              d="M13.3438 1.1652C13.8494 -0.0358606 15.5717 -0.035859 16.0773 1.1652L19.0618 8.25405C19.2751 8.76038 19.7571 9.10634 20.3104 9.15016L28.0569 9.76371C29.3694 9.86766 29.9016 11.4858 28.9016 12.3321L22.9996 17.3267C22.5781 17.6835 22.3939 18.2433 22.5227 18.7766L24.3259 26.2447C24.6313 27.51 23.2381 28.5101 22.1144 27.8321L15.4822 23.83C15.0084 23.5442 14.4127 23.5442 13.9389 23.83L7.30671 27.8321C6.18301 28.5101 4.78969 27.51 5.09519 26.2447L6.8984 18.7766C7.0272 18.2433 6.84309 17.6835 6.42153 17.3267L0.519374 12.3321C-0.48062 11.4858 0.0515867 9.86766 1.3641 9.76371L9.11076 9.15016C9.66409 9.10634 10.1461 8.76038 10.3593 8.25405L13.3438 1.1652Z"
+                              fill="#4E519D"
+                              aria-hidden="true"
+                            ></path>
+                          </svg>
+                        </div>
+                        <div class="w-embed" aria-hidden="true">
+                          <svg
+                            width="30"
+                            height="29"
+                            viewBox="0 0 30 29"
+                            fill="none"
+                            xmlns="http://www.w3.org/2000/svg"
+                            aria-hidden="true"
+                          >
+                            <path
+                              d="M13.3438 1.1652C13.8494 -0.0358606 15.5717 -0.035859 16.0773 1.1652L19.0618 8.25405C19.2751 8.76038 19.7571 9.10634 20.3104 9.15016L28.0569 9.76371C29.3694 9.86766 29.9016 11.4858 28.9016 12.3321L22.9996 17.3267C22.5781 17.6835 22.3939 18.2433 22.5227 18.7766L24.3259 26.2447C24.6313 27.51 23.2381 28.5101 22.1144 27.8321L15.4822 23.83C15.0084 23.5442 14.4127 23.5442 13.9389 23.83L7.30671 27.8321C6.18301 28.5101 4.78969 27.51 5.09519 26.2447L6.8984 18.7766C7.0272 18.2433 6.84309 17.6835 6.42153 17.3267L0.519374 12.3321C-0.48062 11.4858 0.0515867 9.86766 1.3641 9.76371L9.11076 9.15016C9.66409 9.10634 10.1461 8.76038 10.3593 8.25405L13.3438 1.1652Z"
+                              fill="#4E519D"
+                              aria-hidden="true"
+                            ></path>
+                          </svg>
+                        </div>
+                      </div>
+                      <div class="text-block-42" aria-hidden="true">
+                        I&nbsp;love having Petzo in my pocket for peace of mind!
+                      </div>
+                      <div class="text-block-43" aria-hidden="true">
+                        "Having a second opinion from a team of knowledgeable
+                        pet people is wonderful. You can message, video call, or
+                        call them as many times as you see fit with one steady
+                        cost. My pup means the world to me and I love having the
+                        comfort of Petzo advice on everything from bumps on her
+                        body from bugs to the big stuff."
+                      </div>
+                      <div class="text-block-44" aria-hidden="true">
+                        Margaret R.
+                      </div>
+                      <div class="text-block-45" aria-hidden="true">
+                        San Francisco, CA
+                      </div>
+                    </div>
+                    <div
+                      class="section-reviews-slide-content-right"
+                      aria-hidden="true"
+                    >
+                      <img
+                        src="https://assets.website-files.com/6331f18a8af6845b0f127c61/6397cafd77ac912ab2bbaac4_iStock-1443897686.webp"
+                        loading="lazy"
+                        width="567"
+                        height="378"
+                        srcset="
+                          https://assets.website-files.com/6331f18a8af6845b0f127c61/6397cafd77ac912ab2bbaac4_iStock-1443897686-p-500.webp 500w,
+                          https://assets.website-files.com/6331f18a8af6845b0f127c61/6397cafd77ac912ab2bbaac4_iStock-1443897686-p-800.webp 800w,
+                          https://assets.website-files.com/6331f18a8af6845b0f127c61/6397cafd77ac912ab2bbaac4_iStock-1443897686.webp       830w
+                        "
+                        sizes="(max-width: 479px) 100vw, (max-width: 767px) 94vw, (max-width: 991px) 42vw, (max-width: 1439px) 41vw, 567px"
+                        alt="white and black long haired dog lying on couch"
+                        class="image-63"
+                        aria-hidden="true"
+                      />
+                    </div>
+                  </div>
+                </div>
+                <div
+                  aria-live="off"
+                  aria-atomic="true"
+                  class="w-slider-aria-label"
+                  data-wf-ignore=""
+                >
+                  Slide 2 of 3.
+                </div>
+              </div>
+              <div
+                class="left-arrow w-slider-arrow-left"
+                role="button"
+                tabindex="0"
+                aria-controls="w-slider-mask-0"
+                aria-label="previous slide"
+              >
+                <div class="w-embed">
+                  <svg
+                    width="25"
+                    height="25"
+                    viewBox="0 0 25 25"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M17.2071 5.35603C17.5976 4.96551 17.5976 4.33234 17.2071 3.94182C16.8166 3.55129 16.1834 3.55129 15.7929 3.94182L17.2071 5.35603ZM8.5 12.6489L7.79289 11.9418C7.40237 12.3323 7.40237 12.9655 7.79289 13.356L8.5 12.6489ZM15.7929 21.356C16.1834 21.7466 16.8166 21.7466 17.2071 21.356C17.5976 20.9655 17.5976 20.3323 17.2071 19.9418L15.7929 21.356ZM15.7929 3.94182L7.79289 11.9418L9.20711 13.356L17.2071 5.35603L15.7929 3.94182ZM7.79289 13.356L15.7929 21.356L17.2071 19.9418L9.20711 11.9418L7.79289 13.356Z"
+                      fill="#13133D"
+                    ></path>
+                  </svg>
+                </div>
+              </div>
+              <div
+                class="right-arrow w-slider-arrow-right"
+                role="button"
+                tabindex="0"
+                aria-controls="w-slider-mask-0"
+                aria-label="next slide"
+              >
+                <div class="w-embed">
+                  <svg
+                    width="25"
+                    height="25"
+                    viewBox="0 0 25 25"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M9.20711 3.94182C8.81658 3.55129 8.18342 3.55129 7.79289 3.94182C7.40237 4.33234 7.40237 4.96551 7.79289 5.35603L9.20711 3.94182ZM16.5 12.6489L17.2071 13.356C17.5976 12.9655 17.5976 12.3323 17.2071 11.9418L16.5 12.6489ZM7.79289 19.9418C7.40237 20.3323 7.40237 20.9655 7.79289 21.356C8.18342 21.7466 8.81658 21.7466 9.20711 21.356L7.79289 19.9418ZM7.79289 5.35603L15.7929 13.356L17.2071 11.9418L9.20711 3.94182L7.79289 5.35603ZM15.7929 11.9418L7.79289 19.9418L9.20711 21.356L17.2071 13.356L15.7929 11.9418Z"
+                      fill="#13133D"
+                    ></path>
+                  </svg>
+                </div>
+              </div>
+              <div class="slide-nav w-slider-nav w-round">
+                <div
+                  class="w-slider-dot"
+                  data-wf-ignore=""
+                  aria-label="Show slide 1 of 3"
+                  aria-pressed="false"
+                  role="button"
+                  tabindex="-1"
+                  style="margin-left: 3px; margin-right: 3px"
+                ></div>
+                <div
+                  class="w-slider-dot w-active"
+                  data-wf-ignore=""
+                  aria-label="Show slide 2 of 3"
+                  aria-pressed="true"
+                  role="button"
+                  tabindex="0"
+                  style="margin-left: 3px; margin-right: 3px"
+                ></div>
+                <div
+                  class="w-slider-dot"
+                  data-wf-ignore=""
+                  aria-label="Show slide 3 of 3"
+                  aria-pressed="false"
+                  role="button"
+                  tabindex="-1"
+                  style="margin-left: 3px; margin-right: 3px"
+                ></div>
+              </div>
+            </div>
+          </div>
+        </div> -->
+      </div>
+    </section>
+    <section class="section-virtual-vet-care wf-section">
+      <div class="landing-page-container">
+        <div class="section-virtual-vet-care-content">
+          <div class="section-header-left-content">
+            <img
+              src="https://assets.website-files.com/6331f18a8af6845b0f127c61/638f9c5c4b77f1ccaceb251a_Mask%20group.webp"
+              loading="lazy"
+              width="554"
+              height="629"
+              srcset="
+                https://assets.website-files.com/6331f18a8af6845b0f127c61/638f9c5c4b77f1ccaceb251a_Mask%20group-p-500.webp   500w,
+                https://assets.website-files.com/6331f18a8af6845b0f127c61/638f9c5c4b77f1ccaceb251a_Mask%20group-p-800.webp   800w,
+                https://assets.website-files.com/6331f18a8af6845b0f127c61/638f9c5c4b77f1ccaceb251a_Mask%20group-p-1080.webp 1080w,
+                https://assets.website-files.com/6331f18a8af6845b0f127c61/638f9c5c4b77f1ccaceb251a_Mask%20group.webp        1401w
+              "
+              sizes="(max-width: 479px) 100vw, (max-width: 767px) 94vw, (max-width: 1439px) 36vw, 514.9249877929688px"
+              alt="vet crouched down holding dog"
+              class="image-42"
+            />
+          </div>
+          <div class="section-header-right-content">
+            <p
+              class="text-block-15 text-color-iris text-weight-bold section-eyebrow"
+            >
+              HOW&nbsp;WE&nbsp;TREAT
+            </p>
+            <h2 class="heading-4 text-weight-medium">
+              Put an expert in your back pocket.
+            </h2>
+            <p class="text-block-17 text-weight-regular">
+              Most health issues aren't solved in one visit. That's why Petzo's
+              in-house medical team has crafted an annual membership that gives
+              you unlimited access to ongoing expert care.
+            </p>
+            <div class="div-block-13">
+              <div class="vet-pro-info-block vet-pro-info-block-top">
+                <img
+                  src="https://assets.website-files.com/6331f18a8af6845b0f127c61/638f9ca25b5c56400b7c2367_Pawp_2022_BrandShoot1_HumansOnly_10_1x1%201%20(1).png"
+                  loading="lazy"
+                  width="72"
+                  height="72"
+                  alt="A Petzo DVM in a white doctor's coat"
+                  class="image-43"
+                />
+                <div>
+                  <h3 class="text-block-20 text-weight-medium">
+                    Yui Shapard, DVM
+                  </h3>
+                  <p class="text-block-18 text-weight-regular">
+                    Medical Director
+                  </p>
+                  <p class="text-block-21">5+ Years Experience</p>
+                </div>
+              </div>
+              <div class="vet-pro-info-block vet-pro-info-block-bottom">
+                <img
+                  src="https://assets.website-files.com/6331f18a8af6845b0f127c61/638f9ca2b336c7223adf32b9_image%20287.png"
+                  loading="lazy"
+                  width="72"
+                  height="72"
+                  alt="A Petzo LVT in blue scrubs"
+                  class="image-43"
+                />
+                <div>
+                  <h3 class="text-block-20 text-weight-medium">
+                    Kim Knapp, LVT
+                  </h3>
+                  <p class="text-block-18 text-weight-regular">
+                    Vet Operations Lead
+                  </p>
+                  <p class="text-block-21">20+ Years Experience</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="section-quote wf-section">
+      <div class="section-quote-wrapper">
+        <div class="section-quote-content">
+          <div class="text-block-24 text-weight-regular">“</div>
+          <p class="text-block-25 text-weight-regular">
+            Access to care is a huge hurdle for pet parents. That’s why Petzo
+            strives to make high quality care accessible to all. Members can
+            receive sound advice, medical recommendations, and accurate
+            information that can only come from real experts.
+          </p>
+          <p class="text-block-26 text-weight-regular">Dr. Yui Shapard, DVM</p>
+        </div>
+      </div>
+    </section>
+    <section class="section-apps section-apps-home wf-section">
+      <div class="landing-page-container">
+        <div class="section-apps-content">
+          <div class="section-apps-left-content">
+            <p
+              class="text-block-27 text-weight-bold text-color-iris section-eyebrow"
+            >
+              WHERE&nbsp;TO&nbsp;START
+            </p>
+            <h2 class="heading-4 text-weight-medium">
+              Put an expert in your back pocket.
+            </h2>
+            <p class="text-block-28">
+              Bring the clinic to your living room with the Petzo app's
+              best-in-show virtual pet care experience.
+            </p>
+            <div class="div-block-36">
+              <a
+                data-track-click-property-screen="homepage"
+                aria-label="Download ios app"
+                data-track-click="true"
+                data-track-click-name="App Download Selected"
+                data-track-click-property-app="ios"
+                data-track-click-property-location="hero"
+                href="https://link.pawp.com/9SSD?af_web_dp=https%3A%2F%2Fapps.apple.com%2Fus%2Fapp%2Fpawp-24-7-vet-pet-care%2Fid1594794194&amp;initial_interaction=homepage"
+                class="link-block-10 w-inline-block"
+                ><img
+                  src="https://assets.website-files.com/6331f18a8af6845b0f127c61/6397c137a252b28d20b65556_apple_badge%20(1).png"
+                  loading="lazy"
+                  height="44"
+                  width="147"
+                  srcset="
+                    https://assets.website-files.com/6331f18a8af6845b0f127c61/6397c137a252b28d20b65556_apple_badge%20(1)-p-500.png   500w,
+                    https://assets.website-files.com/6331f18a8af6845b0f127c61/6397c137a252b28d20b65556_apple_badge%20(1)-p-800.png   800w,
+                    https://assets.website-files.com/6331f18a8af6845b0f127c61/6397c137a252b28d20b65556_apple_badge%20(1)-p-1080.png 1080w,
+                    https://assets.website-files.com/6331f18a8af6845b0f127c61/6397c137a252b28d20b65556_apple_badge%20(1)-p-1600.png 1600w,
+                    https://assets.website-files.com/6331f18a8af6845b0f127c61/6397c137a252b28d20b65556_apple_badge%20(1)-p-2000.png 2000w,
+                    https://assets.website-files.com/6331f18a8af6845b0f127c61/6397c137a252b28d20b65556_apple_badge%20(1)-p-2600.png 2600w,
+                    https://assets.website-files.com/6331f18a8af6845b0f127c61/6397c137a252b28d20b65556_apple_badge%20(1)-p-3200.png 3200w
+                  "
+                  sizes="147px"
+                  alt="Download on the App Store"
+                  class="image-59" /></a
+              ><a
+                data-track-click-property-screen="homepage"
+                aria-label="Download android app"
+                data-track-click="true"
+                data-track-click-name="App Download Selected"
+                data-track-click-property-app="android"
+                data-track-click-property-location="hero"
+                href="https://link.pawp.com/9SSD?af_web_dp=https%3A%2F%2Fplay.google.com%2Fstore%2Fapps%2Fdetails%3Fid%3Dcom.pawp.android&amp;hl=en_US&amp;gl=US&amp;initial_interaction=homepage"
+                class="link-block-21 w-inline-block"
+                ><img
+                  src="https://assets.website-files.com/6331f18a8af6845b0f127c61/6397c137a252b20d03b65555_google_badge%20(2).png"
+                  loading="lazy"
+                  height="44"
+                  width="147"
+                  srcset="
+                    https://assets.website-files.com/6331f18a8af6845b0f127c61/6397c137a252b20d03b65555_google_badge%20(2)-p-500.png   500w,
+                    https://assets.website-files.com/6331f18a8af6845b0f127c61/6397c137a252b20d03b65555_google_badge%20(2)-p-800.png   800w,
+                    https://assets.website-files.com/6331f18a8af6845b0f127c61/6397c137a252b20d03b65555_google_badge%20(2)-p-1080.png 1080w,
+                    https://assets.website-files.com/6331f18a8af6845b0f127c61/6397c137a252b20d03b65555_google_badge%20(2)-p-1600.png 1600w,
+                    https://assets.website-files.com/6331f18a8af6845b0f127c61/6397c137a252b20d03b65555_google_badge%20(2)-p-2000.png 2000w,
+                    https://assets.website-files.com/6331f18a8af6845b0f127c61/6397c137a252b20d03b65555_google_badge%20(2)-p-2600.png 2600w,
+                    https://assets.website-files.com/6331f18a8af6845b0f127c61/6397c137a252b20d03b65555_google_badge%20(2)-p-3200.png 3200w
+                  "
+                  sizes="147px"
+                  alt="Get it on Google Play"
+                  class="image-60"
+              /></a>
+            </div>
+          </div>
+          <div class="section-apps-right-content">
+            <img
+              src="https://assets.website-files.com/6331f18a8af6845b0f127c61/6397bfdb24e6ff4d61e6240c_Group%20427319728.png"
+              loading="lazy"
+              width="637"
+              height="423"
+              alt="Three smart phones with Petzo messages, a Petzo video chat, and the Petzo dashboard"
+              srcset="
+                https://assets.website-files.com/6331f18a8af6845b0f127c61/6397bfdb24e6ff4d61e6240c_Group%20427319728-p-500.png   500w,
+                https://assets.website-files.com/6331f18a8af6845b0f127c61/6397bfdb24e6ff4d61e6240c_Group%20427319728-p-800.png   800w,
+                https://assets.website-files.com/6331f18a8af6845b0f127c61/6397bfdb24e6ff4d61e6240c_Group%20427319728-p-1080.png 1080w,
+                https://assets.website-files.com/6331f18a8af6845b0f127c61/6397bfdb24e6ff4d61e6240c_Group%20427319728-p-1600.png 1600w,
+                https://assets.website-files.com/6331f18a8af6845b0f127c61/6397bfdb24e6ff4d61e6240c_Group%20427319728.png        1705w
+              "
+              sizes="(max-width: 479px) 100vw, (max-width: 767px) 94vw, (max-width: 991px) 50vw, (max-width: 1439px) 48vw, 637px"
+              class="image-47"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="section-best-friend wf-section">
+      <div class="landing-page-container">
+        <div class="section-best-friend-content">
+          <div class="section-best-friend-left-content">
+            <img
+              src="https://assets.website-files.com/6331f18a8af6845b0f127c61/63939d94a71ea869043ba7e8_Mask%20group%20(12).png"
+              loading="lazy"
+              width="554"
+              height="628"
+              alt="Man with glasses and blue shirt holding a dog close to him"
+              srcset="
+                https://assets.website-files.com/6331f18a8af6845b0f127c61/63939d94a71ea869043ba7e8_Mask%20group%20(12)-p-500.png   500w,
+                https://assets.website-files.com/6331f18a8af6845b0f127c61/63939d94a71ea869043ba7e8_Mask%20group%20(12)-p-800.png   800w,
+                https://assets.website-files.com/6331f18a8af6845b0f127c61/63939d94a71ea869043ba7e8_Mask%20group%20(12)-p-1080.png 1080w,
+                https://assets.website-files.com/6331f18a8af6845b0f127c61/63939d94a71ea869043ba7e8_Mask%20group%20(12).png        1200w
+              "
+              sizes="(max-width: 479px) 100vw, (max-width: 767px) 94vw, (max-width: 1439px) 36vw, 514.9249877929688px"
+              class="image-48"
+            />
+          </div>
+          <div class="section-best-friend-right-content">
+            <p
+              class="text-block-29 text-weight-bold text-color-iris section-eyebrow"
+            >
+              WHAT&nbsp;WE&nbsp;OFFER
+            </p>
+            <h2 class="heading-6">
+              Your best friend deserves the best in care.
+            </h2>
+            <ul role="list" class="list-4 w-list-unstyled">
+              <li>
+                <div class="div-block-29 text-weight-medium">
+                  <div class="text-block-39">✓</div>
+                  <p class="paragraph-10">24/7 access to vet professionals</p>
+                </div>
+              </li>
+              <li>
+                <div class="div-block-29 text-weight-medium">
+                  <div class="text-block-39">✓</div>
+                  <p class="paragraph-10">Unlimited, on-demand visits</p>
+                </div>
+              </li>
+              <li>
+                <div class="div-block-29 text-weight-medium">
+                  <div class="text-block-39">✓</div>
+                  <p class="paragraph-10">Guided ongoing care plans</p>
+                </div>
+              </li>
+              <li>
+                <div class="div-block-29 text-weight-medium">
+                  <div class="text-block-39">✓</div>
+                  <p class="paragraph-10">Personalized recommendations</p>
+                </div>
+              </li>
+              <li>
+                <div class="div-block-29 text-weight-medium">
+                  <div class="text-block-39">✓</div>
+                  <p class="paragraph-10">Risk-free cancellation at anytime</p>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="section-get-started wf-section">
+      <div class="section-get-started-content">
+        <div class="section-get-started-left-content">
+          <h2 class="heading-8">Ready to get started?</h2>
+          <p class="get-started-subtext">
+            Give your pet the round-the-clock care they deserve for better
+            outcomes and longer lives.
+          </p>
+          <a
+            class="button button-size-large button-variant-iris button-full-width footer-button w-button"
+            data-track-click="true"
+            data-track-click-property-location="get-started-section"
+            data-track-click-property-cta_text="Try For Free"
+            href="/download-app/"
+            data-track-click-name="CTA Selected"
+            app-download-cta="true"
+            data-track-click-property-screen="homepage"
+            id="unauthed-footer-button"
+            style="display: block"
+            >Try For Free</a
+          ><a
+            id="authed-footer-button"
+            data-track-click="true"
+            data-track-click-name="CTA Selected"
+            data-track-click-property-location="get-started-section"
+            data-track-click-property-screen="homepage"
+            data-track-click-property-cta_text="Petzo Home"
+            href="/app/dashboard/"
+            class="button button-size-large button-variant-iris button-full-width footer-button w-button"
+            style="display: none"
+            >Petzo Home</a
+          >
+        </div>
+        <div class="section-get-started-right-content">
+          <img
+            src="https://assets.website-files.com/6331f18a8af6845b0f127c61/633db2f5dd112e11895c7899_orange%201.png"
+            loading="lazy"
+            width="356"
+            height="356"
+            alt="Dog with mouth open in front of orange background"
+            srcset="
+              https://assets.website-files.com/6331f18a8af6845b0f127c61/633db2f5dd112e11895c7899_orange%201-p-500.png  500w,
+              https://assets.website-files.com/6331f18a8af6845b0f127c61/633db2f5dd112e11895c7899_orange%201-p-800.png  800w,
+              https://assets.website-files.com/6331f18a8af6845b0f127c61/633db2f5dd112e11895c7899_orange%201.png       1040w
+            "
+            sizes="(max-width: 479px) 100vw, (max-width: 767px) 332.6000061035156px, (max-width: 991px) 44vw, 356px"
+            class="image-50"
+          />
+        </div>
+      </div>
+    </section>
+  
+{% endblock body %}

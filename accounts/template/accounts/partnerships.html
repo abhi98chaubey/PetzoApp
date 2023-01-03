@@ -1,4 +1,4 @@
-{% extends 'accounts/base.html' %} {% block body %}
+{% extends 'accounts/base.html' %} {% block body %} {% load static %}
 <section
   class="section-page-header section-page-header-partnerships wf-section"
 >
@@ -814,19 +814,19 @@
       </div>
       <div class="section-apps-right-content">
         <img
-          src="https://assets.website-files.com/6331f18a8af6845b0f127c61/63989f32c9adce71110cf6d0_Group%20427319728%20(4).webp"
+          src="{% static '/img/combined.png'%}"
           loading="lazy"
           width="637"
           height="423"
           alt="Three smart phones with pawp messages, a pawp video chat, and the pawp dashboard"
           srcset="
-            https://assets.website-files.com/6331f18a8af6845b0f127c61/63989f32c9adce71110cf6d0_Group%20427319728%20(4)-p-500.webp   500w,
-            https://assets.website-files.com/6331f18a8af6845b0f127c61/63989f32c9adce71110cf6d0_Group%20427319728%20(4)-p-800.webp   800w,
-            https://assets.website-files.com/6331f18a8af6845b0f127c61/63989f32c9adce71110cf6d0_Group%20427319728%20(4)-p-1080.webp 1080w,
-            https://assets.website-files.com/6331f18a8af6845b0f127c61/63989f32c9adce71110cf6d0_Group%20427319728%20(4)-p-1600.webp 1600w,
-            https://assets.website-files.com/6331f18a8af6845b0f127c61/63989f32c9adce71110cf6d0_Group%20427319728%20(4)-p-2000.webp 2000w,
-            https://assets.website-files.com/6331f18a8af6845b0f127c61/63989f32c9adce71110cf6d0_Group%20427319728%20(4)-p-2600.webp 2600w,
-            https://assets.website-files.com/6331f18a8af6845b0f127c61/63989f32c9adce71110cf6d0_Group%20427319728%20(4)-p-3200.webp 3200w
+            {% static '/img/combined.png'%} 500w,
+            {% static '/img/combined.png'%} 800w,
+            {% static '/img/combined.png'%} 1080w,
+            {% static '/img/combined.png'%} 1600w,
+            {% static '/img/combined.png'%} 2000w,
+            {% static '/img/combined.png'%} 2600w,
+            {% static '/img/combined.png'%} 3200w
           "
           sizes="(max-width: 479px) 100vw, (max-width: 767px) 93vw, (max-width: 991px) 49vw, (max-width: 1439px) 47vw, 637px"
           class="image-47"
